@@ -43,9 +43,9 @@ spec:
       - --ingress-class=external
     policy: sync
     sources: ["crd", "ingress"]
-    txtPrefix: k8s.
+    txtPrefix: "us-central-1.khoto.io"
     txtOwnerId: default
-    domainFilters: ["${SECRET_DOMAIN}"]
+    domainFilters: ["${SECRET_ZONE}"]
     serviceMonitor:
       enabled: true
     podAnnotations:

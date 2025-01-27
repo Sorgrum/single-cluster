@@ -9,6 +9,6 @@ instance:
     - notification-controller
   sync:
     kind: GitRepository
-    url: "https://github.com/khoto-io/single-cluster.git"
+    url: "https://github.com/Sorgrum/single-cluster.git"
     ref: "refs/heads/main"
     path: kubernetes/flux/cluster
